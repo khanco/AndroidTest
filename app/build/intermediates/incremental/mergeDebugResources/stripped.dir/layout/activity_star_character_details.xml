@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                  
+     
+
+  
+             
+                    
+                                                                                      
+          
+             
+                        
+                                                                                                          
+          
+         
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/background"
+       android:tag="layout/activity_star_character_details_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/dp55"
+          android:background="@color/colorPrimaryDark"
+          android:ellipsize="end"
+          android:gravity="center"
+          android:maxLines="1"
+          android:text="@string/star_wars"
+          android:textColor="@color/white"
+          android:textSize="@dimen/font18"
+          />
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/dp150"
+          android:layout_gravity="center_horizontal"
+          android:background="@color/background"
+          android:paddingBottom="@dimen/dp20"
+          android:paddingTop="@dimen/dp20"
+          android:src="@drawable/ic_star_wars"
+          />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="@dimen/dp20"
+            android:text="@string/name"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/font14"
+            />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:padding="@dimen/dp20"
+            android:tag="binding_1"     
+            android:textColor="@color/white"
+            android:textSize="@dimen/font14"
+            tools:text="Data"
+            />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="@dimen/dp20"
+            android:text="@string/height"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/font14"
+            />
+
+        <TextView
+            android:id="@+id/tvHeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:padding="@dimen/dp20"
+            android:tag="binding_2"                                                                                 
+            android:textColor="@color/white"
+            android:textSize="@dimen/font14"
+            tools:text="Data"
+            />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="@dimen/dp20"
+            android:text="@string/mass"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/font14"
+            />
+
+        <TextView
+            android:id="@+id/tvMAss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:padding="@dimen/dp20"
+            android:tag="binding_3"                                        
+            android:textColor="@color/white"
+            android:textSize="@dimen/font14"
+            tools:text="Data"
+            />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="@dimen/dp20"
+            android:text="@string/created_date_time"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/font14"
+            />
+
+        <TextView
+            android:id="@+id/tvRecordedDateTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:padding="@dimen/dp20"
+            android:tag="binding_4"                                     
+            android:textColor="@color/white"
+            android:textSize="@dimen/font14"
+            tools:text="Data"
+            />
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+         

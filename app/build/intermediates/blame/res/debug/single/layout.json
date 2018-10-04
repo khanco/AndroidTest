@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/shahbazkhan/StudioProjects/AndroidTest/JavaAndroidTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_star_character_details.xml",
+        "source": "/Users/shahbazkhan/StudioProjects/AndroidTest/JavaAndroidTest/app/src/main/res/layout/activity_star_character_details.xml"
+    },
+    {
+        "merged": "/Users/shahbazkhan/StudioProjects/AndroidTest/JavaAndroidTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_star_character_list.xml",
+        "source": "/Users/shahbazkhan/StudioProjects/AndroidTest/JavaAndroidTest/app/src/main/res/layout/activity_star_character_list.xml"
+    },
+    {
+        "merged": "/Users/shahbazkhan/StudioProjects/AndroidTest/JavaAndroidTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/list_item_character.xml",
+        "source": "/Users/shahbazkhan/StudioProjects/AndroidTest/JavaAndroidTest/app/src/main/res/layout/list_item_character.xml"
+    }
+]

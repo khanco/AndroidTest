@@ -1,0 +1,23 @@
+<resources>
+  <string name="app_name">StarWars</string>
+
+  // Label Strings
+  <string name="image">image</string>
+  <string name="star_character_list">Star Wars Characters</string>
+  <string name="created_date_time">Created Date Time</string>
+  <string name="name">Name</string>
+  <string name="mass">Mass</string>
+  <string name="height">Height</string>
+  <string name="star_wars">Star Wars</string>
+  <string name="retry">Retry</string>
+
+  // Message Strings
+  <string name="generic_error_msg">Something went wrong, please try after sometime!</string>
+  <string name="no_internet">No Internet</string>
+  <string name="success">Success</string>
+
+  // Formatting Strings
+  <string name="mass_value">%s Kg</string>
+  <string name="height_value">%s Mts</string>
+  <string name="birth_year">Birth year : %s</string>
+</resources>

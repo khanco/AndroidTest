@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+  <data>
+
+    <variable
+        name="model"
+        type="com.example.test.screens.starcharacterdetails.mvvm.models.StarCharacter"
+        />
+
+  </data>
+
+  <android.support.constraint.ConstraintLayout
+      android:id="@+id/itemContainer"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="20dp"
+      tools:background="@color/background"
+      >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/dp40"
+        android:layout_height="@dimen/dp40"
+        android:contentDescription="@string/image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_star_wars"
+        android:padding="@dimen/dp5"
+        tools:ignore="VectorDrawableCompat"
+        />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="@dimen/dp16"
+        android:text="@{model.name}"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font16"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imvNext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Title"
+        />
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginStart="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp5"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@{String.format(@string/birth_year, model.birthYear)}"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font12"
+        app:layout_constraintEnd_toStartOf="@+id/imvNext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        tools:text="Sub Title"
+        />
+    <ImageView
+        android:id="@+id/imvNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_next"
+        tools:ignore="VectorDrawableCompat"
+        />
+  </android.support.constraint.ConstraintLayout>
+</layout>
