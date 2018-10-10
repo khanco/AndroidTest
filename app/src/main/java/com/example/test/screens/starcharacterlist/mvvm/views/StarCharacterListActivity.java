@@ -7,8 +7,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import com.example.test.R;
-import com.example.test.screens.starcharacterdetails.mvvm.models.StarCharacter;
 import com.example.test.databinding.ActivityStarCharacterListBinding;
+import com.example.test.screens.starcharacterdetails.mvvm.models.StarCharacter;
 import com.example.test.screens.starcharacterdetails.mvvm.views.StarCharacterDetailsActivity;
 import com.example.test.screens.starcharacterlist.dagger.DaggerStarCharacterListComponent;
 import com.example.test.screens.starcharacterlist.dagger.StartCharacterListModule;
@@ -23,7 +23,7 @@ public class StarCharacterListActivity extends AppCompatActivity
 
     RecyclerView recyclerView;
     List<StarCharacter> list = new ArrayList<>();
-    @Inject StarCharacterListViewModel viewModel;
+    public @Inject StarCharacterListViewModel viewModel;
 
     @Override protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

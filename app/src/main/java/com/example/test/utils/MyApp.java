@@ -2,7 +2,6 @@ package com.example.test.utils;
 
 import android.app.Application;
 import android.content.Context;
-import android.content.ContextWrapper;
 import com.example.test.dagger.components.ApiManagerComponent;
 import com.example.test.dagger.components.DaggerApiManagerComponent;
 import com.example.test.dagger.components.DaggerMyAppComponent;

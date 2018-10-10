@@ -7,8 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.example.test.R;
-import com.example.test.screens.starcharacterdetails.mvvm.models.StarCharacter;
 import com.example.test.databinding.ListItemCharacterBinding;
+import com.example.test.screens.starcharacterdetails.mvvm.models.StarCharacter;
 import java.util.List;
 
 public class StarCharacterAdapter extends RecyclerView.Adapter<StarCharacterAdapter.Item> {
@@ -43,7 +43,7 @@ public class StarCharacterAdapter extends RecyclerView.Adapter<StarCharacterAdap
         return data.size();
     }
 
-    class Item extends RecyclerView.ViewHolder {
+    public class Item extends RecyclerView.ViewHolder {
 
         ListItemCharacterBinding binding;
 

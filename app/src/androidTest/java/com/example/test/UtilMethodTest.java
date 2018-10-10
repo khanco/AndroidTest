@@ -6,10 +6,10 @@ import com.example.test.utils.UtilMethods;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class UtilMethodTesting {
+public class UtilMethodTest {
 
     @Test
-    public void  useAppContext() {
+    public void useAppContext() {
         Context appContext = InstrumentationRegistry.getTargetContext();
         Assert.assertEquals("com.example.test", appContext.getPackageName());
     }
@@ -19,7 +19,7 @@ public class UtilMethodTesting {
      */
 
     @Test
-    public void isInternetConnected()  {
+    public void isInternetConnected() {
         boolean isConnected = UtilMethods.getInstance().isNetworkAvailable();
         Assert.assertEquals("Internet Connection Status", true, isConnected);
     }

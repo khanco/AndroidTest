@@ -2,7 +2,6 @@ package com.example.test.screens.starcharacterdetails.mvvm.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import java.util.List;
 import org.parceler.Parcel;
 
 @Parcel(Parcel.Serialization.BEAN)

@@ -8,7 +8,7 @@ import dagger.Provides;
 @Module
 public class StartCharacterListModule {
     @Provides
-    StarCharacterListViewModel provideViewModel(ApiManager apiManager) {
+    public StarCharacterListViewModel provideViewModel(ApiManager apiManager) {
         return new StarCharacterListViewModel(apiManager);
     }
 }
